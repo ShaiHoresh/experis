@@ -1,0 +1,16 @@
+Queue*  QueueCreate(size_t _size);
+void    QueueDestroy(Queue* _queue);
+ADTErr  QueueInsert(Queue* _queue, int _item);
+ADTErr  QueueRemove(Queue* _queue, int* _item);
+int     QueueIsEmpty(Queue* _queue);
+void    QueuePrint(Queue* _queue);
+
+
+typedef struct _queue
+{
+    int* m_vec;         /*vec to work on*/
+    size_t m_size;        /*size of vector*/
+    size_t m_head;        /* index of head in m_vec*/
+    size_t tail;        /* index of tail in m_vec*/
+    size_t m_nItems        /* number of items in vector*/
+}Queue;

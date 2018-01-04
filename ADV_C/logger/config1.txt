@@ -1,0 +1,4 @@
+[#]
+File = sec.txt
+Path = Ququriku
+Level = LOG_WARNING

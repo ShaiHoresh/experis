@@ -1,0 +1,11 @@
+classes:
+
+Book - ISBN, Author, Title. getters
+BookRecord - Book*, numOfCopies, borrowers & waiting list. IsAvailable, NextBorrower(?), Borrow, Return, Report
+BooksAdmin - list of BookRecord*. add/remove/search. Borrow, Return
+
+Person - ID, name, phone. getters.      // could be part of BorrowerRecord
+BorrowerRecord - Person*, list. Borrow, Return, Report
+BorrowerAdmin - list of BorrowerRecord. add/remove/search. Borrow, Return, ReportOfAll
+
+Library - lists of BorrowerRecord & BookRecord, 

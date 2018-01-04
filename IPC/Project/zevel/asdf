@@ -1,0 +1,45 @@
+   if(strcmp(_subscriber->m_operatorBrand,_subscriber ->m_partyMSISDN)==0)
+   {
+       switch (_subscriber ->m_Calltype)
+       {
+           case 0:
+               _subscriberCurrent-> m_outCall_In_Network++;
+               break;
+           case 1:
+               _subscriberCurrent-> m_incomigCall_In_Network++;
+               break;                    
+           case 2:
+               _subscriberCurrent-> m_smsResive_In_Network++;
+               break;
+           case 3:
+               _subscriberCurrent-> m_smsSent_In_Network++;
+               break;
+           default:
+               return-1;
+       }
+   }
+   else if(_subscriber ->m_Calltype != 4)
+   {      
+       switch (_subscriber ->m_Calltype)
+       {
+           case 0:
+               _subscriberCurrent-> m_outCall_Out_Network++;
+               break;
+           case 1:
+               _subscriberCurrent-> m_incomigCall_Out_Network++;
+               break;                    
+           case 2:
+               _subscriberCurrent-> m_smsResive_Out_Network++;
+               break;
+           case 3:
+               _subscriberCurrent-> m_smsSent_Out_Network++;
+               break;
+           default:
+               return-1;
+       }
+   
+   }
+       _subscriberCurrent->m_MbUp += _subscriber->m_upload ;
+       _subscriberCurrent->m_MbDoun +=_subscriber-> m_download;
+   return 0;
+}

@@ -1,0 +1,15 @@
+קאסט דינמי לא דורש אינקלוד, הוא חלק מהשפה
+הוא דגל לקומפיילר - אם משתמשים בו, הוא אומר לקומפיילר לעבוד עם RTTI
+
+persistent object is an object that it's life cycle is longer than the program's life cycle.
+
+template template parameter
+
+
+
+
+
+
+
+
+return *(*(vector<T*>*) &m_container)[_index];

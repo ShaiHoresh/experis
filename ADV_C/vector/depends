@@ -1,0 +1,2 @@
+testvector.o: testvector.c ../../inc/vector.h ../../inc/ADTDefs.h
+vector.o: vector.c ../../inc/vector.h ../../inc/ADTDefs.h

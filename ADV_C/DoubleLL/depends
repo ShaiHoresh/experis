@@ -1,0 +1,3 @@
+List.o: List.c ../../inc/List.h
+List_Func.o: List_Func.c ../../inc/List.h
+List_Itr.o: List_Itr.c ../../inc/List.h

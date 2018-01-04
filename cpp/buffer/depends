@@ -1,0 +1,3 @@
+string_t.o: string_t.cpp ../../inc/mystring.h ../../inc/buffer.h
+test.o: test.cpp ../../inc/mystring.h ../../inc/buffer.h
+buffer.o: buffer.cpp ../../inc/buffer.h

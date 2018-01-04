@@ -1,0 +1,59 @@
+[SD-Main-Floor]
+type = abcdefghijklmnopqrstuvwxyz
+room = a2
+floor = 0
+log = fire
+config = asdf-asd,jfkvv;mod=true
+
+[SD-sec-Floor]
+type = abcdefghijklmnopqrstuvwxyz
+floor = 1
+log = fire
+config = asdf-asd,jfkd;mod=false
+
+[SD-third-Floor]
+room = c2
+log = fire
+type = abcdefghij klmnopqrstuvwxyz
+floor = 2
+config = asdf-asd, jfkd;mod=true
+
+[SD-vbc-Floor]
+type = abcdefghijklmnopqrstuvwxyz
+room = a2
+floor = 0
+log = fire
+config = asdf-asd,jfkvv;mod=true
+
+[SD-poi-Floor]
+type = abcdefghijklmnopqrstuvwxyz
+floor = 1
+log = fire
+config = asdf-asd,jfkd;mod=false
+
+[SD-r-Floor]
+room = c2
+log = fire
+type = abcdefghij klmnopqrstuvwxyz
+floor = 2
+config = asdf-asd, jfkd;mod=true
+
+[SD-g-Floor]
+type = abcdefghijklmnopqrstuvwxyz
+room = a2
+floor = 0
+log = fire
+config = asdf-asd,jfkvv;mod=true
+
+[SD-d-Floor]
+type = abcdefghijklmnopqrstuvwxyz
+floor = 1
+log = fire
+config = asdf-asd,jfkd;mod=false
+
+[SD-third-yh]
+room = c2
+log = fire
+type = abcdefghij klmnopqrstuvwxyz
+floor = 2
+config = asdf-asd, jfkd;mod=true

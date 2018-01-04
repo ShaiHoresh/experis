@@ -1,0 +1,2 @@
+testHash.o: testHash.c ../../inc/HashMap.h ../../inc/mu_test.h
+Hash.o: Hash.c ../../inc/DoubleLL.h ../../inc/HashMap.h

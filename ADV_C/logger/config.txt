@@ -1,0 +1,4 @@
+[#]
+File = first.txt
+Path = Ququriku
+Level = LOG_WARNING

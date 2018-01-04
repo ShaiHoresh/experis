@@ -1,0 +1,21 @@
+City – Template exercise
+
+Building_t – template class. ID of buiding can be of ANY type :
+
+Example: IDs can be integers ( 1,3,5,7 2,4…) or even strings "A10" , "17Bet"…
+Functionality of class: setBuidingID and getBuildingID
+
+Street_t – template class; is a container of buildings.
+
+ID of street can be of ANY type : strings "Herzl", or even integers as in New York – 42, 20..
+Functionality of class: setStreetID and getStreetID¸ AddBuilding2Street, getBuilding
+
+City_t - template class; is container of streets
+
+ID of City can be of ANY type : strings "Herzl", or any another type
+Functionality of class: setCityID and getCityID¸ AddStreet, getStreet
+
+For all classes to provide dflt CTOR, copy CTOR and operator=
+Pay attention, that CITY is a container of containers ( for example: city is list of streets which are vectors of
+buildings ).
+Build test which checks implementation of these classes.

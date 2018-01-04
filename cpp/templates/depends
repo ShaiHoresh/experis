@@ -1,0 +1,1 @@
+test.o: test.cpp street_t.h building_t.h

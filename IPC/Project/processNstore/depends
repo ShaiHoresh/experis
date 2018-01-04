@@ -1,0 +1,10 @@
+processor.o: processor.c ../inc/comm.h ../inc/pdu.h ../inc/receiver.h \
+ ../inc/comm.h ../inc/operStorage.h ../inc/subsStorage.h
+init.o: init.c ../inc/comm.h ../inc/pdu.h ../inc/processor.h \
+ ../inc/subsStorage.h ../inc/operStorage.h
+subsStorage.o: subsStorage.c ../../../inc/HashMap.h ../inc/pdu.h \
+ ../inc/subsStorage.h ../inc/pdu.h
+receiver.o: receiver.c ../inc/receiver.h ../inc/pdu.h ../inc/comm.h \
+ ../inc/pdu.h
+operStorage.o: operStorage.c ../../../inc/HashMap.h ../inc/pdu.h \
+ ../inc/operStorage.h ../inc/pdu.h

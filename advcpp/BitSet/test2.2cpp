@@ -1,0 +1,54 @@
+#include "BitSet.h"
+
+int main (int argc, char const* argv[])
+{
+    advcpp::BitSet<13> bs, bs2, bs3, b4, b5;
+    
+    std::cout << bs[8] << std::endl;
+    
+    bs[8] = true;
+    
+    std::cout << bs[8] << std::endl;
+    
+    bs2[4] = true;
+    
+    std::cout << bs2[4] << std::endl;
+    
+    if(bs2[4])
+    {
+        std::cout << "operator bool is working" << std::endl;
+    }
+    
+    std::cout << "\ntest operators ^, &, | between b2 and b2:" << std::endl;
+    std::cout << "\tbs: " << bs << std::endl;
+    std::cout << "\tb2: " << bs2 << std::endl;
+    bs3 = bs ^ bs2;
+    std::cout << "\n\tbs: " << bs << std::endl;
+    std::cout << "\tb2: " << bs2 << std::endl;
+    std::cout << "^\tb3: " << bs3 << std::endl;
+    b4 = bs & bs2;
+    std::cout << "\n\tbs: " << bs << std::endl;
+    std::cout << "\tb2: " << bs2 << std::endl;
+    std::cout << "&\tb4: " << b4 << std::endl;
+    b5 = bs | bs2;
+    std::cout << "\n\tbs: " << bs << std::endl;
+    std::cout << "\tb2: " << bs2 << std::endl;    
+    std::cout << "|\tb5: " << b5 << std::endl;
+    
+    std::cout << "\ntest operators ^=, &=, |=:" << std::endl;
+    std::cout << "reference\n\tbs: " << bs << std::endl;
+
+    advcpp::BitSet<13> b6;
+    b6 ^= bs;
+    std::cout << "^\tb6: " << b6 << std::endl;
+
+    advcpp::BitSet<13> b7;
+    b7 &= bs;
+    std::cout << "&\tb7: " << b7 << std::endl;
+
+    advcpp::BitSet<13> b8;
+    b8 |= bs;
+    std::cout << "|\tb8: " << b8 << std::endl;
+    
+    return 0;
+}

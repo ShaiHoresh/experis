@@ -1,0 +1,12 @@
+EventFilter.o: EventFilter.cpp Event.h EventFilter.h ../cpp_inc/Pqueue.h \
+ Agent.h AgentData.h Hub.h IHub.h
+SmartHome.o: SmartHome.cpp SmartHome.h AgentData.h Agent.h Hub.h IHub.h \
+ ../cpp_inc/Pqueue.h Event.h Parse.h SOLoader.h
+Parse.o: Parse.cpp AgentData.h Parse.h
+Sensor.o: Sensor.cpp Sensor.h Agent.h AgentData.h Hub.h IHub.h \
+ ../cpp_inc/Pqueue.h Event.h
+SOLoader.o: SOLoader.cpp SOLoader.h
+AgentData.o: AgentData.cpp AgentData.h
+test.o: test.cpp SmartHome.h
+Hub.o: Hub.cpp Hub.h IHub.h ../cpp_inc/Pqueue.h EventFilter.h Event.h \
+ Agent.h AgentData.h

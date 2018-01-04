@@ -1,0 +1,5 @@
+Linear search average time of 0.000419 sec
+Linear search Improved average time of 0.000374 sec
+Linear search Improved And Pull average time of 0.000366 sec
+Jump search average time of 0.000000 sec
+Binary search average time of 0.000000 sec

@@ -1,0 +1,2 @@
+BigNums.o: BigNums.cpp BigNums.h
+test.o: test.cpp BigNums.h

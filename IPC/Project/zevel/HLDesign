@@ -1,0 +1,18 @@
+general:
+
+
+FileDetection:
+        waiting to a new file and push it to a message queue
+
+FileReader:
+        reading each row, parses it and put the raw data in structure
+        pushing the struct to (another) Q.
+        
+RawDataProcessor:
+        analyzing the data, rearranging it to logical struct
+
+
+
+detailed:
+
+

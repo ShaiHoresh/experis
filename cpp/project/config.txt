@@ -1,0 +1,14 @@
+[SD-Main-Floor]
+type = SmokeDet
+room = a2
+floor = 0
+log = fire
+config = asdf-asd,jfkvv;mod=true
+
+[SD-Main-Floor]
+type = Sprinkler
+floor = 1
+room = taryag
+log = fire
+config = asdf-asd,jfkd;mod=false
+

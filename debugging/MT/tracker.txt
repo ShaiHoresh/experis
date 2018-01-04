@@ -1,0 +1,148 @@
+16:37:35.277486 IP 192.168.0.163.netbios-ns > 192.168.0.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+16:37:35.559299 IP orev-3-3.35056 > 239.255.255.250.1900: UDP, length 172
+16:37:35.720741 IP teacher-13.51847 > 239.255.255.250.1900: UDP, length 172
+16:37:35.863307 STP 802.1w, Rapid STP, Flags [Forward], bridge-id 8000.2c:23:3a:19:9b:7e.8017, length 43
+16:37:36.157313 IP orev-3-3.33940 > 192.168.0.163.hostmon: Flags [S], seq 1546620713, win 29200, options [mss 1460,sackOK,TS val 3632034570 ecr 0,nop,wscale 7], length 0
+16:37:36.157581 IP 192.168.0.163.hostmon > orev-3-3.33940: Flags [R.], seq 0, ack 1546620714, win 0, length 0
+16:37:36.254156 IP orev-3-3.47897 > ns-pt-vip.012.net.il.domain: 11569+ [1au] PTR? 235.0.168.192.in-addr.arpa. (55)
+16:37:36.254696 IP orev-3-3.44231 > ns-pt-vip.012.net.il.domain: 39442+ [1au] PTR? 41.0.168.192.in-addr.arpa. (54)
+16:37:36.256506 IP ns-pt-vip.012.net.il.domain > orev-3-3.47897: 11569 NXDomain* 0/1/1 (131)
+16:37:36.256529 IP orev-3-3 > ns-pt-vip.012.net.il: ICMP orev-3-3 udp port 47897 unreachable, length 167
+16:37:36.256642 IP ns-pt-vip.012.net.il.domain > orev-3-3.44231: 39442 NXDomain* 0/1/1 (130)
+16:37:36.432371 ARP, Request who-has teacher-13 tell orev-3-3, length 28
+16:37:36.432661 ARP, Reply teacher-13 is-at 00:23:24:94:27:de (oui Unknown), length 46
+16:37:36.432670 IP orev-3-3.41214 > teacher-13.hostmon: Flags [S], seq 3052079309, win 29200, options [mss 1460,sackOK,TS val 995124966 ecr 0,nop,wscale 7], length 0
+16:37:36.432964 IP teacher-13.hostmon > orev-3-3.41214: Flags [S.], seq 3521741702, ack 3052079310, win 28960, options [mss 1460,sackOK,TS val 2127683641 ecr 995124966,nop,wscale 7], length 0
+16:37:36.432993 IP orev-3-3.41214 > teacher-13.hostmon: Flags [.], ack 1, win 229, options [nop,nop,TS val 995124966 ecr 2127683641], length 0
+16:37:36.433050 IP orev-3-3.41214 > teacher-13.hostmon: Flags [P.], seq 1:46, ack 1, win 229, options [nop,nop,TS val 995124967 ecr 2127683641], length 45
+16:37:36.433371 IP teacher-13.hostmon > orev-3-3.41214: Flags [.], ack 46, win 227, options [nop,nop,TS val 2127683641 ecr 995124967], length 0
+16:37:36.433661 IP teacher-13.hostmon > orev-3-3.41214: Flags [P.], seq 1:70, ack 46, win 227, options [nop,nop,TS val 2127683641 ecr 995124967], length 69
+16:37:36.433673 IP orev-3-3.41214 > teacher-13.hostmon: Flags [.], ack 70, win 229, options [nop,nop,TS val 995124967 ecr 2127683641], length 0
+16:37:36.433687 IP teacher-13.hostmon > orev-3-3.41214: Flags [F.], seq 70, ack 46, win 227, options [nop,nop,TS val 2127683641 ecr 995124967], length 0
+16:37:36.433766 IP orev-3-3.41214 > teacher-13.hostmon: Flags [F.], seq 46, ack 71, win 229, options [nop,nop,TS val 995124967 ecr 2127683641], length 0
+16:37:36.433980 IP teacher-13.hostmon > orev-3-3.41214: Flags [.], ack 47, win 227, options [nop,nop,TS val 2127683641 ecr 995124967], length 0
+16:37:36.542581 IP 192.168.0.39.53428 > 239.255.255.250.1900: UDP, length 173
+16:37:36.558339 IP orev-3-3.56716 > fra16s08-in-f5.1e100.net.https: Flags [.], ack 2805764251, win 424, options [nop,nop,TS val 1550718778 ecr 234333238], length 0
+16:37:36.613572 IP fra16s08-in-f5.1e100.net.https > orev-3-3.56716: Flags [.], ack 1, win 211, options [nop,nop,TS val 234378742 ecr 1550718683], length 0
+16:37:36.722288 IP teacher-13.51847 > 239.255.255.250.1900: UDP, length 172
+16:37:36.975491 IP orev-3-3.52948 > ns-pt-vip.012.net.il.domain: 53371+ [1au] PTR? 39.0.168.192.in-addr.arpa. (54)
+16:37:36.977219 IP ns-pt-vip.012.net.il.domain > orev-3-3.52948: 53371 NXDomain* 0/1/1 (130)
+16:37:37.003426 ARP, Request who-has 192.168.0.39 tell orev-3-3, length 28
+16:37:37.003616 ARP, Reply 192.168.0.39 is-at d8:cb:8a:68:e5:f9 (oui Unknown), length 46
+16:37:37.003625 IP orev-3-3.39154 > 192.168.0.39.hostmon: Flags [S], seq 3033299402, win 29200, options [mss 1460,sackOK,TS val 1367805985 ecr 0,nop,wscale 7], length 0
+16:37:37.254339 IP orev-3-3.39859 > ns-pt-vip.012.net.il.domain: 7021+ [1au] PTR? 197.16.217.172.in-addr.arpa. (56)
+16:37:37.256772 IP ns-pt-vip.012.net.il.domain > orev-3-3.39859: 7021 2/0/1 PTR fra16s08-in-f5.1e100.net., PTR fra16s08-in-f197.1e100.net. (125)
+16:37:37.338596 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6135: UDP, length 94
+16:37:37.338609 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6136: UDP, length 94
+16:37:37.338611 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6137: UDP, length 94
+16:37:37.338710 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6138: UDP, length 94
+16:37:37.338718 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6139: UDP, length 94
+16:37:37.338720 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6140: UDP, length 94
+16:37:37.338722 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6141: UDP, length 94
+16:37:37.338723 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6142: UDP, length 94
+16:37:37.543509 IP 192.168.0.39.53428 > 239.255.255.250.1900: UDP, length 173
+16:37:37.723500 IP teacher-13.51847 > 239.255.255.250.1900: UDP, length 172
+16:37:37.846753 STP 802.1w, Rapid STP, Flags [Forward], bridge-id 8000.2c:23:3a:19:9b:7e.8017, length 43
+16:37:38.173663 IP orev-3-3.34024 > yaodav-Lenovo-V510-15IKB.hostmon: Flags [S], seq 420288634, win 29200, options [mss 1460,sackOK,TS val 953962956 ecr 0,nop,wscale 7], length 0
+16:37:38.173740 IP yaodav-Lenovo-V510-15IKB.hostmon > orev-3-3.34024: Flags [S.], seq 3043367228, ack 420288635, win 28960, options [mss 1460,sackOK,TS val 3654314888 ecr 953962956,nop,wscale 7], length 0
+16:37:38.173760 IP orev-3-3.34024 > yaodav-Lenovo-V510-15IKB.hostmon: Flags [.], ack 1, win 229, options [nop,nop,TS val 953962956 ecr 3654314888], length 0
+16:37:38.173817 IP orev-3-3.34024 > yaodav-Lenovo-V510-15IKB.hostmon: Flags [P.], seq 1:46, ack 1, win 229, options [nop,nop,TS val 953962956 ecr 3654314888], length 45
+16:37:38.173955 IP yaodav-Lenovo-V510-15IKB.hostmon > orev-3-3.34024: Flags [.], ack 46, win 227, options [nop,nop,TS val 3654314889 ecr 953962956], length 0
+16:37:38.174063 IP yaodav-Lenovo-V510-15IKB.hostmon > orev-3-3.34024: Flags [P.], seq 1:84, ack 46, win 227, options [nop,nop,TS val 3654314889 ecr 953962956], length 83
+16:37:38.174076 IP orev-3-3.34024 > yaodav-Lenovo-V510-15IKB.hostmon: Flags [.], ack 84, win 229, options [nop,nop,TS val 953962957 ecr 3654314889], length 0
+16:37:38.174089 IP yaodav-Lenovo-V510-15IKB.hostmon > orev-3-3.34024: Flags [F.], seq 84, ack 46, win 227, options [nop,nop,TS val 3654314889 ecr 953962956], length 0
+16:37:38.174171 IP orev-3-3.34024 > yaodav-Lenovo-V510-15IKB.hostmon: Flags [F.], seq 46, ack 85, win 229, options [nop,nop,TS val 953962957 ecr 3654314889], length 0
+16:37:38.174213 IP yaodav-Lenovo-V510-15IKB.hostmon > orev-3-3.34024: Flags [.], ack 47, win 227, options [nop,nop,TS val 3654314889 ecr 953962957], length 0
+16:37:38.543592 IP 192.168.0.39.53428 > 239.255.255.250.1900: UDP, length 173
+16:37:38.724716 IP teacher-13.51847 > 239.255.255.250.1900: UDP, length 172
+16:37:38.870273 IP orev-3-3.43193 > wn-in-f189.1e100.net.443: UDP, length 23
+16:37:38.959597 IP wn-in-f189.1e100.net.443 > orev-3-3.43193: UDP, length 33
+16:37:39.028685 IP 192.168.0.163.netbios-ns > 192.168.0.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+16:37:39.028849 IP6 fe80::b9d4:6f91:589d:a8a.62096 > ff02::1:3.hostmon: UDP, length 20
+16:37:39.028871 IP 192.168.0.163.62096 > 224.0.0.252.hostmon: UDP, length 20
+16:37:39.029078 IP6 fe80::b9d4:6f91:589d:a8a.57086 > ff02::1:3.hostmon: UDP, length 20
+16:37:39.029116 IP 192.168.0.163.57086 > 224.0.0.252.hostmon: UDP, length 20
+16:37:39.438742 IP6 fe80::b9d4:6f91:589d:a8a.62096 > ff02::1:3.hostmon: UDP, length 20
+16:37:39.438760 IP 192.168.0.163.62096 > 224.0.0.252.hostmon: UDP, length 20
+16:37:39.439665 IP6 fe80::b9d4:6f91:589d:a8a.57086 > ff02::1:3.hostmon: UDP, length 20
+16:37:39.439700 IP 192.168.0.163.57086 > 224.0.0.252.hostmon: UDP, length 20
+16:37:39.544147 IP 192.168.0.39.53428 > 239.255.255.250.1900: UDP, length 173
+16:37:39.778500 IP 192.168.0.163.netbios-ns > 192.168.0.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+16:37:39.845033 STP 802.1w, Rapid STP, Flags [Forward], bridge-id 8000.2c:23:3a:19:9b:7e.8017, length 43
+16:37:40.253649 IP6 orev-3-3.35978 > fe80::b9d4:6f91:589d:a8a.hostmon: Flags [S], seq 2096832725, win 28800, options [mss 1440,sackOK,TS val 2997473602 ecr 0,nop,wscale 7], length 0
+16:37:40.253869 IP6 fe80::b9d4:6f91:589d:a8a.hostmon > orev-3-3.35978: Flags [R.], seq 0, ack 2096832726, win 0, length 0
+16:37:40.361616 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6135: UDP, length 94
+16:37:40.361626 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6136: UDP, length 94
+16:37:40.361628 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6137: UDP, length 94
+16:37:40.361630 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6138: UDP, length 94
+16:37:40.361633 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6139: UDP, length 94
+16:37:40.361635 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6140: UDP, length 94
+16:37:40.361637 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6141: UDP, length 94
+16:37:40.361722 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6142: UDP, length 94
+16:37:40.528797 IP 192.168.0.163.netbios-ns > 192.168.0.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+16:37:40.947193 IP orev-3-3.38118 > 2d.4a.37a9.ip4.static.sl-reverse.com.https: Flags [P.], seq 498658579:498658617, ack 3243673156, win 1901, options [nop,nop,TS val 1989017559 ecr 313181021], length 38
+16:37:41.088833 IP 2d.4a.37a9.ip4.static.sl-reverse.com.https > orev-3-3.38118: Flags [P.], seq 1:46, ack 38, win 8197, options [nop,nop,TS val 313205458 ecr 1989017559], length 45
+16:37:41.088855 IP orev-3-3.38118 > 2d.4a.37a9.ip4.static.sl-reverse.com.https: Flags [.], ack 46, win 1901, options [nop,nop,TS val 1989017700 ecr 313205458], length 0
+16:37:41.175683 IP6 student-ThinkCentre-M77.mdns > ff02::fb.mdns: 0 [7q] PTR (QM)? _ftp._tcp.local. PTR (QM)? _nfs._tcp.local. PTR (QM)? _afpovertcp._tcp.local. PTR (QM)? _smb._tcp.local. PTR (QM)? _sftp-ssh._tcp.local. PTR (QM)? _webdavs._tcp.local. PTR (QM)? _webdav._tcp.local. (118)
+16:37:41.175713 IP student-ThinkCentre-M77.mdns > 224.0.0.251.mdns: 0 [7q] PTR (QM)? _ftp._tcp.local. PTR (QM)? _nfs._tcp.local. PTR (QM)? _afpovertcp._tcp.local. PTR (QM)? _smb._tcp.local. PTR (QM)? _sftp-ssh._tcp.local. PTR (QM)? _webdavs._tcp.local. PTR (QM)? _webdav._tcp.local. (118)
+16:37:41.562778 ARP, Request who-has orev-3-3 tell teacher-13, length 46
+16:37:41.562795 ARP, Reply orev-3-3 is-at cc:52:af:44:e1:dc (oui Unknown), length 28
+16:37:41.844503 STP 802.1w, Rapid STP, Flags [Forward], bridge-id 8000.2c:23:3a:19:9b:7e.8017, length 43
+16:37:42.095384 IP orev-3-3.36065 > ns-pt-vip.012.net.il.domain: 19648+ [1au] PTR? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. (101)
+16:37:42.098344 IP ns-pt-vip.012.net.il.domain > orev-3-3.36065: 19648 NXDomain 0/1/1 (165)
+16:37:42.404088 IP6 orev-3-3 > ff02::1:ff1d:9bdf: ICMP6, neighbor solicitation, who has student-ThinkCentre-M77, length 32
+16:37:42.404316 IP6 student-ThinkCentre-M77 > orev-3-3: ICMP6, neighbor advertisement, tgt is student-ThinkCentre-M77, length 32
+16:37:42.404342 IP6 orev-3-3.38820 > student-ThinkCentre-M77.hostmon: Flags [S], seq 1668114498, win 28800, options [mss 1440,sackOK,TS val 3712812678 ecr 0,nop,wscale 7], length 0
+16:37:42.404556 IP6 student-ThinkCentre-M77.hostmon > orev-3-3.38820: Flags [S.], seq 3701790058, ack 1668114499, win 28560, options [mss 1440,sackOK,TS val 322894537 ecr 3712812678,nop,wscale 7], length 0
+16:37:42.404589 IP6 orev-3-3.38820 > student-ThinkCentre-M77.hostmon: Flags [.], ack 1, win 225, options [nop,nop,TS val 3712812678 ecr 322894537], length 0
+16:37:42.404648 IP6 orev-3-3.38820 > student-ThinkCentre-M77.hostmon: Flags [P.], seq 1:93, ack 1, win 225, options [nop,nop,TS val 3712812678 ecr 322894537], length 92
+16:37:42.404797 IP6 student-ThinkCentre-M77.hostmon > orev-3-3.38820: Flags [.], ack 93, win 224, options [nop,nop,TS val 322894537 ecr 3712812678], length 0
+16:37:42.405317 IP6 student-ThinkCentre-M77.hostmon > orev-3-3.38820: Flags [P.], seq 1:130, ack 93, win 224, options [nop,nop,TS val 322894537 ecr 3712812678], length 129
+16:37:42.405331 IP6 orev-3-3.38820 > student-ThinkCentre-M77.hostmon: Flags [.], ack 130, win 234, options [nop,nop,TS val 3712812679 ecr 322894537], length 0
+16:37:42.405345 IP6 student-ThinkCentre-M77.hostmon > orev-3-3.38820: Flags [F.], seq 130, ack 93, win 224, options [nop,nop,TS val 322894537 ecr 3712812678], length 0
+16:37:42.405425 IP6 orev-3-3.38820 > student-ThinkCentre-M77.hostmon: Flags [F.], seq 93, ack 131, win 234, options [nop,nop,TS val 3712812679 ecr 322894537], length 0
+16:37:42.405575 IP6 student-ThinkCentre-M77.hostmon > orev-3-3.38820: Flags [.], ack 94, win 224, options [nop,nop,TS val 322894537 ecr 3712812679], length 0
+16:37:42.406225 IP orev-3-3.57378 > ns-pt-vip.012.net.il.domain: 44476+ [1au] PTR? 251.0.0.224.in-addr.arpa. (53)
+16:37:42.408359 IP ns-pt-vip.012.net.il.domain > orev-3-3.57378: 44476 NXDomain 0/1/1 (110)
+16:37:42.504381 IP orev-3-3.48255 > ns-pt-vip.012.net.il.domain: 11817+ [1au] PTR? 98.0.168.192.in-addr.arpa. (54)
+16:37:42.507328 IP ns-pt-vip.012.net.il.domain > orev-3-3.48255: 11817 NXDomain* 0/1/1 (130)
+16:37:42.652759 ARP, Request who-has student-ThinkCentre-M77 tell orev-3-3, length 28
+16:37:42.652912 ARP, Reply student-ThinkCentre-M77 is-at 1c:6f:65:0f:1d:0a (oui Unknown), length 46
+16:37:42.652921 IP orev-3-3.32918 > student-ThinkCentre-M77.hostmon: Flags [S], seq 2999290695, win 29200, options [mss 1460,sackOK,TS val 803223643 ecr 0,nop,wscale 7], length 0
+16:37:42.653142 IP student-ThinkCentre-M77.hostmon > orev-3-3.32918: Flags [S.], seq 2186533562, ack 2999290696, win 28960, options [mss 1460,sackOK,TS val 3280157532 ecr 803223643,nop,wscale 7], length 0
+16:37:42.653177 IP orev-3-3.32918 > student-ThinkCentre-M77.hostmon: Flags [.], ack 1, win 229, options [nop,nop,TS val 803223644 ecr 3280157532], length 0
+16:37:42.653236 IP orev-3-3.32918 > student-ThinkCentre-M77.hostmon: Flags [P.], seq 1:46, ack 1, win 229, options [nop,nop,TS val 803223644 ecr 3280157532], length 45
+16:37:42.653384 IP student-ThinkCentre-M77.hostmon > orev-3-3.32918: Flags [.], ack 46, win 227, options [nop,nop,TS val 3280157532 ecr 803223644], length 0
+16:37:42.653595 IP student-ThinkCentre-M77.hostmon > orev-3-3.32918: Flags [P.], seq 1:83, ack 46, win 227, options [nop,nop,TS val 3280157532 ecr 803223644], length 82
+16:37:42.653608 IP orev-3-3.32918 > student-ThinkCentre-M77.hostmon: Flags [.], ack 83, win 229, options [nop,nop,TS val 803223644 ecr 3280157532], length 0
+16:37:42.653622 IP student-ThinkCentre-M77.hostmon > orev-3-3.32918: Flags [F.], seq 83, ack 46, win 227, options [nop,nop,TS val 3280157532 ecr 803223644], length 0
+16:37:42.653703 IP orev-3-3.32918 > student-ThinkCentre-M77.hostmon: Flags [F.], seq 46, ack 84, win 229, options [nop,nop,TS val 803223644 ecr 3280157532], length 0
+16:37:42.653854 IP student-ThinkCentre-M77.hostmon > orev-3-3.32918: Flags [.], ack 47, win 227, options [nop,nop,TS val 3280157532 ecr 803223644], length 0
+16:37:43.119403 IP orev-3-3.52604 > ns-pt-vip.012.net.il.domain: 20695+ [1au] PTR? f.d.b.9.d.1.f.f.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. (101)
+16:37:43.190458 IP ns-pt-vip.012.net.il.domain > orev-3-3.52604: 20695 NXDomain 0/1/1 (165)
+16:37:43.381719 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6135: UDP, length 94
+16:37:43.381730 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6136: UDP, length 94
+16:37:43.381733 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6137: UDP, length 94
+16:37:43.381735 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6138: UDP, length 94
+16:37:43.381738 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6139: UDP, length 94
+16:37:43.381740 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6140: UDP, length 94
+16:37:43.381741 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6141: UDP, length 94
+16:37:43.381743 IP yaodav-Lenovo-V510-15IKB.6135 > 255.255.255.255.6142: UDP, length 94
+16:37:43.713015 IP 2d.4a.37a9.ip4.static.sl-reverse.com.https > orev-3-3.38118: Flags [P.], seq 46:257, ack 38, win 8197, options [nop,nop,TS val 313208082 ecr 1989017700], length 211
+16:37:43.713043 IP orev-3-3.38118 > 2d.4a.37a9.ip4.static.sl-reverse.com.https: Flags [.], ack 257, win 1901, options [nop,nop,TS val 1989020325 ecr 313208082], length 0
+16:37:43.845318 STP 802.1w, Rapid STP, Flags [Forward], bridge-id 8000.2c:23:3a:19:9b:7e.8017, length 43
+16:37:44.280923 IP 192.168.0.163.netbios-ns > 192.168.0.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+16:37:44.281293 IP6 fe80::b9d4:6f91:589d:a8a.56437 > ff02::1:3.hostmon: UDP, length 20
+16:37:44.281375 IP 192.168.0.163.56437 > 224.0.0.252.hostmon: UDP, length 20
+16:37:44.281704 IP6 fe80::b9d4:6f91:589d:a8a.50890 > ff02::1:3.hostmon: UDP, length 20
+16:37:44.281751 IP 192.168.0.163.50890 > 224.0.0.252.hostmon: UDP, length 20
+16:37:44.690768 IP6 fe80::b9d4:6f91:589d:a8a.56437 > ff02::1:3.hostmon: UDP, length 20
+16:37:44.690796 IP 192.168.0.163.56437 > 224.0.0.252.hostmon: UDP, length 20
+16:37:44.691937 IP6 fe80::b9d4:6f91:589d:a8a.50890 > ff02::1:3.hostmon: UDP, length 20
+16:37:44.692029 IP 192.168.0.163.50890 > 224.0.0.252.hostmon: UDP, length 20
+16:37:45.031400 IP 192.168.0.163.netbios-ns > 192.168.0.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+16:37:45.135601 IP6 fe80::b9d4:6f91:589d:a8a > orev-3-3: ICMP6, neighbor solicitation, who has orev-3-3, length 32
+16:37:45.135641 IP6 orev-3-3 > fe80::b9d4:6f91:589d:a8a: ICMP6, neighbor advertisement, tgt is orev-3-3, length 24
+16:37:45.781731 IP 192.168.0.163.netbios-ns > 192.168.0.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+16:37:45.849480 STP 802.1w, Rapid STP, Flags [Forward], bridge-id 8000.2c:23:3a:19:9b:7e.8017, length 43
+

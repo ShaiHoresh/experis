@@ -1,0 +1,55 @@
+#ifndef __FILE_DETECTOR_H__
+#define __FILE_DETECTOR_H__
+
+char* DetectorGetFile(char* _path);
+
+int DetectorSendFile(char* _fileName);
+
+#endif /* #ifndef __FILE_DETECTOR_H__ */
+
+
+#ifndef __FILE_READER_H__
+#define __FILE_READER_H__
+
+typedef struct Data Data;
+
+char* FileGetCdr(char* _fileName);
+
+Data* FileParseData(char* _cdr);
+
+int FileStoreData(Data* _data);
+
+#endif /* #ifndef __FILE_READER_H__ */
+
+
+#ifndef _REPORTS_GENERATOR_H__
+#define _REPORTS_GENERATOR_H__
+
+FILE* ReportGenretorAllsubs(HashMap* _storage); /* legal?? */
+FILE* ReportGenretorAllOperators(HashMap* _storage);
+FILE* ReportGenretorSubscriber(HashMap* _storage);
+FILE* ReportGenretorOperator(HashMap* _storage);
+FILE* ReportGenretorAggregated(HashMap* _storage);
+
+
+#endif /* #ifndef _REPORTS_GENERATOR_H__*/
+
+#ifndef __CDR_INTERFACE_H__
+#define __CDR_INTERFACE_H__
+
+int CDRAllsubs(FILE* _report);
+int CDRAllOperators(FILE* _report);
+int CDRSubscriber(FILE* _report);
+int CDROperator(FILE* _report);
+int CDRAggregated(FILE* _report);
+
+int CDRPause(???);
+int CDRResume(???);
+
+int CDRShutdown(???);
+
+
+#endif /* #ifndef __CDR_INTERFACE_H__ */
+
+
+

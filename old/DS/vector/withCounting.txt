@@ -1,0 +1,86 @@
+1000 elements:
+Shake Sort Rand Values     0.007579
+Shake Sort Asc Values      0.000007
+Shake Sort Des Values      0.009636
+Quick Sort Rand Values     0.000167
+Quick Sort Asc Values      0.002488
+Quick Sort Des Values      0.002451
+Insertion Sort Rand Values     0.006161
+Insertion Sort Asc Values      0.000014
+Insertion Sort Des Values      0.010759
+Shell Sort Rand Values     0.000330
+Shell Sort Asc Values      0.000106
+Shell Sort Des Values      0.000201
+Selection Sort Rand Values     0.002061
+Selection Sort Asc Values      0.002010
+Selection Sort Des Values      0.002146
+Bubble Sort Rand Values     0.007349
+Bubble Sort Asc Values      0.000005
+Bubble Sort Des Values      0.008557
+Merge Sort Rec Rand Values     0.000158
+Merge Sort Rec Asc Values      0.000109
+Merge Sort Rec Des Values      0.000108
+Merge Sort Rand Values     0.000152
+Merge Sort Asc Values      0.000104
+Merge Sort Des Values      0.000104
+Counting Sort Rand Values     0.000386
+Counting Sort Asc Values      0.000344
+Counting Sort Des Values      0.000269
+
+10000 elements:
+Shake Sort Rand Values     0.271434
+Shake Sort Asc Values      0.000044
+Shake Sort Des Values      0.671306
+Quick Sort Rand Values     0.001491
+Quick Sort Asc Values      0.172531
+Quick Sort Des Values      0.179751
+Insertion Sort Rand Values     0.495290
+Insertion Sort Asc Values      0.000119
+Insertion Sort Des Values      0.990897
+Shell Sort Rand Values     0.005497
+Shell Sort Asc Values      0.001498
+Shell Sort Des Values      0.002796
+Selection Sort Rand Values     0.198914
+Selection Sort Asc Values      0.188147
+Selection Sort Des Values      0.206343
+Bubble Sort Rand Values     0.764649
+Bubble Sort Asc Values      0.000042
+Bubble Sort Des Values      0.838957
+Merge Sort Rec Rand Values     0.001969
+Merge Sort Rec Asc Values      0.001354
+Merge Sort Rec Des Values      0.001382
+Merge Sort Rand Values     0.001976
+Merge Sort Asc Values      0.001364
+Merge Sort Des Values      0.001354
+Counting Sort Rand Values     0.000509
+Counting Sort Asc Values      0.000417
+Counting Sort Des Values      0.000424
+
+50000 elements:
+Shake Sort Rand Values     10.602081
+Shake Sort Asc Values      0.000215
+Shake Sort Des Values      16.626928
+Quick Sort Rand Values     0.008565
+Quick Sort Asc Values      4.312255
+Quick Sort Des Values      4.494714
+Insertion Sort Rand Values     12.088670
+Insertion Sort Asc Values      0.000580
+Insertion Sort Des Values      24.313295
+Shell Sort Rand Values     0.037833
+Shell Sort Asc Values      0.008773
+Shell Sort Des Values      0.016222
+Selection Sort Rand Values     4.728168
+Selection Sort Asc Values      4.723055
+Selection Sort Des Values      5.062536
+Bubble Sort Rand Values     18.766192
+Bubble Sort Asc Values      0.000208
+Bubble Sort Des Values      20.509407
+Merge Sort Rec Rand Values     0.011410
+Merge Sort Rec Asc Values      0.007759
+Merge Sort Rec Des Values      0.007714
+Merge Sort Rand Values     0.011264
+Merge Sort Asc Values      0.007693
+Merge Sort Des Values      0.007631
+Counting Sort Rand Values     0.001432
+Counting Sort Asc Values      0.001117
+Counting Sort Des Values      0.001116
